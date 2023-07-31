@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 def test_add_to_cart_button(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
+    time.sleep(30)
 
     # Проверяем наличие кнопки добавления в корзину
     try:
